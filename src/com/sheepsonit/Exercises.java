@@ -1,7 +1,13 @@
 package com.sheepsonit;
 
+import com.sheepsonit.allAlgorithms.DepthFirstSearch;
+
+import java.util.List;
+
 public class Exercises {
     public static void main(String[] args) {
+        List<String> lists = DepthFirstSearch.getFileTree("D:/test");
+//        lists.forEach(System.out::println);
     }
 
     static int sum(int[] arr) {

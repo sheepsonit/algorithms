@@ -1,5 +1,9 @@
 package com.sheepsonit;
+import com.sheepsonit.allAlgorithms.QuickSort;
 import org.junit.Test;
+
+import java.util.Arrays;
+
 import static org.junit.Assert.*;
 
 public class ExercisesTest {
@@ -32,5 +36,10 @@ public class ExercisesTest {
     @Test
     public void max2() {
         assertEquals(567,Exercises.max(new int[]{123,27,43,567}));
+    }
+
+    @Test
+    public void qSort() {
+        assertArrayEquals(new int[] {1,2,3,4,5}, QuickSort.qSort(new int[]{2,4,3,1,5}));
     }
 }

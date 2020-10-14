@@ -1,6 +1,6 @@
 package com.sheepsonit;
 
-import com.sheepsonit.binarySearch.BinarySearchAlgorithm;
+import com.sheepsonit.allAlgorithms.binarySearch.BinarySearchAlgorithm;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package com.sheepsonit.binarySearch;
+package com.sheepsonit.allAlgorithms.binarySearch;
 
 public class BinarySearchAlgorithm {
     public static int search(int[] list, int item) {

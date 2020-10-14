@@ -1,4 +1,4 @@
-package com.sheepsonit;
+package com.sheepsonit.allAlgorithms;
 
 import java.io.File;
 import java.io.IOException;
@@ -31,10 +31,5 @@ public class DepthFirstSearch {
         }
 
         return listFilePaths;
-    }
-
-    public static void main (String[]args) throws IOException {
-        List<String> lists = getFileTree("D:/test");
-        lists.forEach(System.out::println);
     }
 }
